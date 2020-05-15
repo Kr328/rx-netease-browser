@@ -263,4 +263,15 @@
       <scheme name="https" />
     </intent-filter>
   </prescription>
+
+  <!-- 弹弹Play概念版 -->
+  <prescription type="activity" package="com.xyoye.dandanplay" class="com.xyoye.dandanplay.ui.activities.play.PlayerManagerActivity" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.VIEW" />
+      <cat name="android.intent.category.BROWSABLE" />
+      <cat name="android.intent.category.DEFAULT" />
+      <scheme name="http" />
+      <scheme name="https" />
+    </intent-filter>
+  </prescription>
 </prescriptions>
